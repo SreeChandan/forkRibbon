@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <ForkRibbon msg="Welcome to Your Vue.js App" />
+    <ForkRibbon mode="both" :fixed_="false" forkLink="https://github.com/SreeChandan/forkRibbon" />
+    <div style="width:100px; height:2000px;"></div>
   </div>
 </template>
 
@@ -16,7 +17,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,5 +25,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+</style>
+
+<style lang="scss">
+body {
+  margin: 0;
+  /*overflow-x: hidden;*/
 }
 </style>
