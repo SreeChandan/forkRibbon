@@ -27,7 +27,9 @@
     </div>
   </div>
 </template>
-
+/**
+ features:
+*/
 <script>
 export default {
   name: "ForkRibbon",
