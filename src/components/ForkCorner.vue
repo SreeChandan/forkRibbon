@@ -27,9 +27,7 @@
     </div>
   </div>
 </template>
-/**
- features:
-*/
+/** features: */
 <script>
 export default {
   name: "ForkRibbon",
@@ -69,7 +67,7 @@ export default {
       }
     },
     ImgSrc_Octocat: function() {
-      return require("@/assets/octocat.svg");
+      return require("../assets/octocat.svg");
     },
     styleObjects: function() {
       return {
